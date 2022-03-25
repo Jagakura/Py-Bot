@@ -1,0 +1,18 @@
+header {
+    color: #eee;
+    text-align: center;
+    height: 70px;
+    animation: color_animation 2s infinite;
+}
+
+@keyframes color_animation {
+    0% {
+        background-color: blue;
+    }
+    50% {
+        background-color: pink;
+    }
+    100% {
+        background-color: blue;
+    }
+}

@@ -1,0 +1,44 @@
+#steve_face {
+    cursor: pointer;
+    position: relative;
+    left: 150px;
+    animation: steve_move 5s infinite;
+    animation-delay: 1.5s;
+}
+@keyframes steve_move {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(400%);
+    }
+}
+
+.gif_img {
+    max-width: 100%;
+}
+
+.nav_block {
+    padding-top: 15px;
+    width: 600px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.neiro_server {
+    animation: niziiro_animation 3s infinite;
+}
+@keyframes niziiro_animation {
+    0% {
+        color: blue;
+    }
+    30% {
+        color: red;
+    }
+    60% {
+        color: rgb(69, 245, 0);
+    }
+    100% {
+        color: blue;
+    }
+}
